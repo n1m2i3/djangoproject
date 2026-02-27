@@ -11,17 +11,21 @@ body {
 }
 
 /* Header */
-.header {
+header {
     background-color: #ffa700ff;
     padding: 60px 0 60px 10px;
 }
 
-.header h1 {
+header h1 {
     color: #000000ff;
 }
 
+a {
+    color: black;
+}
+
 /* Hoofdinhoud-container */
-.content {
+section {
     width: 500px;
     background-color: #ffc1ccff;
     margin: 40px 0 20px 43%;
@@ -45,6 +49,7 @@ body {
 
 /* Link in post titel */
 .post h2 a {
+
     color: #ffa71dff;
     text-decoration: underline;
     text-underline-offset: 3px;
