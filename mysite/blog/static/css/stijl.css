@@ -20,9 +20,16 @@ header h1 {
     color: #000000ff;
 }
 
+h2 {
+    color: #ffa700ff;
+
+}
+
 a {
     color: black;
+
 }
+
 
 /* Hoofdinhoud-container */
 section {
@@ -40,19 +47,6 @@ section {
 .post {
     margin-bottom: 40px;
     border: 3px solid white;
-}
-
-/* Titel van post */
-.post h2 {
-    margin: 7px 0;
-}
-
-/* Link in post titel */
-.post h2 a {
-
-    color: #ffa71dff;
-    text-decoration: underline;
-    text-underline-offset: 3px;
 }
 
 /* Footer */
